@@ -3,8 +3,8 @@ A powerful system to help you memorize and track vocabulary using **Obsidian**, 
 
 ---
 ## Technologies to use 
-![[Pasted image 20250525211601.png]]
-### ![[obsidian-logo-gradient.svg|25]] Obsidian
+![Pasted image 20250525211601.png](images/Pasted%20image%2020250525211601.png)
+### <img src="images/obsidian-logo-gradient.svg" width="25" /> Obsidian
 After installing Obsidian open this repository as vault
 #### Required plugins and their configurations:
 
@@ -19,7 +19,7 @@ After installing Obsidian open this repository as vault
 
 - **Charts**
 ---
-### ![[Pasted image 20250525171307.png|25]] Anki
+### <img src="images/Pasted image 20250525171307.png" width="25" /> Anki
 
 #### Required:
 
@@ -29,9 +29,11 @@ After installing Obsidian open this repository as vault
     
 #### Actions required in Anki: 
 
-- Adjust card fields to match with obsidian template ![[Pasted image 20250525172036.png|500]]
+- Adjust card fields to match with obsidian template 
+<img src="images/Pasted image 20250525172036.png" width="500" />
 
-- Set up these card templates for front and back and styling ![[Pasted image 20250525172550.png|500]]
+- Set up these card templates for front and back and styling
+<img src="images/Pasted image 20250525172550.png" width="500" />
 
 **Front Template**
 ```html
@@ -94,7 +96,7 @@ for (var i = 0; i < coll.length; i++) {
 ```
 - Register and sign in [AnkiWeb](https://ankiweb.net/about)
 ---
-### ![[Pasted image 20250525202158.png|25]] Dropbox
+### <img src="images/Pasted image 20250525202158.png" width="25" /> Dropbox
 - Place your **Obsidian vault** inside the `DropsyncFiles` folder in **Dropbox**
 
 ---
@@ -106,13 +108,13 @@ for (var i = 0; i < coll.length; i++) {
     - Log into **Dropsync** and sync the `DropsyncFiles` folder from Dropbox.
     - Add **two widgets** to your Android home screen:
         - 📚 AnkiDroid deck access
-        - 🔄 "Sync now" button for Dropsync![[Pasted image 20250525203001.png|300]]
-            
+        - 🔄 "Sync now" button for Dropsync
+<img src="images/Pasted image 20250525203001.png" width="300" />
 
 ---
 
 ## 📝 How to Create Markdown Files for Anki Cards
-![[Another Way of Learning English Words with Obsidian and Anki - visual selection.png]]
+<img src="images/Another Way of Learning English Words with Obsidian and Anki - visual selection.png" />
 ### Use Case:
 
 When reading an English article and discovering a new word:
@@ -121,14 +123,15 @@ When reading an English article and discovering a new word:
     
 2. Create a **new note** with a `!` prefix in the filename (e.g., `!Cat.md`).
     
-    - This pins the file to the top of your folder for easy access.![[ezgif-36ada158cb1897.gif]]
+    - This pins the file to the top of your folder for easy access.
+<img src="images/ezgif-36ada158cb1897.gif" />
 
 ### Populate Note with Template:
 
 1. Open the new file (e.g., `!Cat.md`) in Obsidian on your PC.
     
-2. Press `Ctrl + Shift + U` to apply the **Templater** Anki template.![[obsidian-sync 1.gif]]
-    
+2. Press `Ctrl + Shift + U` to apply the **Templater** Anki template.
+<img src="images/obsidian-sync 1.gif" />
 
 ### 🐍Enrich Your Note with Content:
 
@@ -153,8 +156,8 @@ When reading an English article and discovering a new word:
     2. Copy a suitable image.
         
     3. Paste it into the **Front** section of your markdown file.
-        
-![[obsidian-sync 2.gif]]
+
+<img src="images/obsidian-sync 2.gif" />
 ### Final Step - Push your new cards into a Anki deck:
 
 - Open Anki
@@ -163,7 +166,7 @@ When reading an English article and discovering a new word:
 - Hit Sync in Anki
 - Sync AnkiDroid on mobile
 - Done! Now review your cards on the go
-![[obsidian-sync 3.gif]]
+<img src="images/obsidian-sync 3.gif" />
 
 ---
 
@@ -188,7 +191,7 @@ This setup allows you to:
 ### Maintaining CHANGELOG.md
 ### 📖 Contributor workflow: 
 
-- Get the latest git repository 
+- Get the latest git repository
 `git checkout develop`
 `git pull origin develop`
 - Create a branch
@@ -196,7 +199,7 @@ This setup allows you to:
 - Do your changes
 - Stage your files
 `git add .`
--  Commit your changes with a new format if you want your commit be present in a CHANGELOG.md 
+- Commit your changes with a new format if you want your commit be present in a CHANGELOG.md
 `git commit -m "feat(My Developed Tool): my new tool invented"`
 - Update your branch with the latest develop changes
 `git pull origin develop`
@@ -236,7 +239,7 @@ We will be regenerating CHANGELOG.md after each new release by simply running:
 
 Note: you need to set up [git-chnglog](https://github.com/git-chglog/git-chglog) in your local machine to run the above command.
 
-![[Pasted image 20250525212436.png]]
+<img src="images/Pasted image 20250525212436.png" />
 
 For more information please follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification
 
